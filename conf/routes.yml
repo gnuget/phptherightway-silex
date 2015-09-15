@@ -1,0 +1,9 @@
+_posts:
+  path: /
+  defaults: { _controller: "posts:index"}
+_post:
+  path: /post/{id}
+  defaults: { _controller: "posts:post"}
+_category:
+  path: /category/{category}
+  defaults: { _controller: "posts:category"}
